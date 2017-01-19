@@ -12,8 +12,13 @@ UCLASS()
 class LIXIN_API AlixinGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+		
+
+virtual void StartPlay() override;
 };
+
+	
+	
+		
+
